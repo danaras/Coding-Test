@@ -9,7 +9,7 @@ class ofApp : public ofBaseApp{
 
 	public:
     
-        std::string gameDB = ofToDataPath("/Users/Danara/Documents/of_v0.9.3_osx_release/addons/ofxDatGui/example-AllComponents/bin/data/game.sqlite", true);
+        std::string gameDB = ofToDataPath("../../../ADMIN INTERFACE/bin/data/game.sqlite", true);
 		void setup();
 		void update();
 		void draw();
